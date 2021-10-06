@@ -15,10 +15,10 @@ protocol QuotesViewModel: ObservableObject {
 }
 
 @available(iOS 15.0.0, *)
-@MainActor
+@MainActor // You need this w/ async await to signify you want to update this on the main thread
 final class QuotesViewModelImpl: QuotesViewModel {
     
-    @Published private(set) var quotes: [Quote] = []
+    @Published private(set) var quotes: [Quote] = [] // access from outside can't change from outside
     
     private let service: QuotesService
     
