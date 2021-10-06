@@ -13,6 +13,7 @@
 		2A5C7E71270DD37D003E0231 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C7E70270DD37D003E0231 /* Preview Assets.xcassets */; };
 		2A5C7E79270DD39A003E0231 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E78270DD39A003E0231 /* APIConstants.swift */; };
 		2A5C7E7F270DD58C003E0231 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E7E270DD58C003E0231 /* Quote.swift */; };
+		2A5C7E82270DD6BF003E0231 /* QuotesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E81270DD6BF003E0231 /* QuotesScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2A5C7E70270DD37D003E0231 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A5C7E78270DD39A003E0231 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		2A5C7E7E270DD58C003E0231 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		2A5C7E81270DD6BF003E0231 /* QuotesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		2A5C7E7C270DD55C003E0231 /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				2A5C7E80270DD69A003E0231 /* Screen */,
 				2A5C7E7D270DD572003E0231 /* Model */,
 			);
 			path = Quotes;
@@ -103,6 +106,14 @@
 				2A5C7E7E270DD58C003E0231 /* Quote.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2A5C7E80270DD69A003E0231 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C7E81270DD6BF003E0231 /* QuotesScreen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				2A5C7E6C270DD379003E0231 /* ContentView.swift in Sources */,
 				2A5C7E6A270DD379003E0231 /* APIReviewApp.swift in Sources */,
 				2A5C7E79270DD39A003E0231 /* APIConstants.swift in Sources */,
+				2A5C7E82270DD6BF003E0231 /* QuotesScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
