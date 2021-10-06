@@ -17,6 +17,7 @@
 		2A5C7E85270DD9D2003E0231 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E84270DD9D2003E0231 /* QuoteView.swift */; };
 		2A5C7E88270DDB9A003E0231 /* QuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E87270DDB99003E0231 /* QuotesService.swift */; };
 		2A5C7E8B270DDDC2003E0231 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E8A270DDDC2003E0231 /* QuotesViewModel.swift */; };
+		2A5C7E91270DE31E003E0231 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E90270DE31E003E0231 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2A5C7E84270DD9D2003E0231 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		2A5C7E87270DDB99003E0231 /* QuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesService.swift; sourceTree = "<group>"; };
 		2A5C7E8A270DDDC2003E0231 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
+		2A5C7E90270DE31E003E0231 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		2A5C7E68270DD379003E0231 /* APIReview */ = {
 			isa = PBXGroup;
 			children = (
+				2A5C7E8C270DE2A5003E0231 /* Base */,
 				2A5C7E7B270DD555003E0231 /* Feature */,
 				2A5C7E77270DD385003E0231 /* Constants */,
 				2A5C7E69270DD379003E0231 /* APIReviewApp.swift */,
@@ -149,6 +152,38 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		2A5C7E8C270DE2A5003E0231 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C7E8D270DE2DD003E0231 /* Views */,
+				2A5C7E8E270DE2E1003E0231 /* Constants */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2A5C7E8D270DE2DD003E0231 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C7E8F270DE30E003E0231 /* Loading */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A5C7E8E270DE2E1003E0231 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2A5C7E8F270DE30E003E0231 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C7E90270DE31E003E0231 /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,6 +262,7 @@
 				2A5C7E8B270DDDC2003E0231 /* QuotesViewModel.swift in Sources */,
 				2A5C7E79270DD39A003E0231 /* APIConstants.swift in Sources */,
 				2A5C7E82270DD6BF003E0231 /* QuotesScreen.swift in Sources */,
+				2A5C7E91270DE31E003E0231 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

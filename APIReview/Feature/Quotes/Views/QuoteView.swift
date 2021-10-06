@@ -23,6 +23,7 @@ struct QuoteView: View {
             Text(makeAttributedString(title: "Quotes", label: item.quote))
                 .lineLimit(2)
         }
+        .padding()
     }
     // Make a nice string
     private func makeAttributedString(title: String, label: String) -> AttributedString {
