@@ -11,12 +11,12 @@ import Foundation
 
 @available(iOS 15.0.0, *)
 protocol QuotesService {
-    func fetch() async throws -> [Quote]
+    func fetchRandomQuotes() async throws -> [Quote]
 }
 
 @available(iOS 15.0.0, *)
 final class QuotesServiceImpl: QuotesService {
-    func fetch() async throws -> [Quote] {
+    func fetchRandomQuotes() async throws -> [Quote] {
         let urlSession = URLSession.shared
         let url = URL(string: APIConstants.baseURL.appending("/api/quotes")) // appending stuff to api constant
         let (data, _) = try await urlSession.data(from: url!) // interact with api

@@ -16,6 +16,7 @@
 		2A5C7E82270DD6BF003E0231 /* QuotesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E81270DD6BF003E0231 /* QuotesScreen.swift */; };
 		2A5C7E85270DD9D2003E0231 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E84270DD9D2003E0231 /* QuoteView.swift */; };
 		2A5C7E88270DDB9A003E0231 /* QuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E87270DDB99003E0231 /* QuotesService.swift */; };
+		2A5C7E8B270DDDC2003E0231 /* QuotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E8A270DDDC2003E0231 /* QuotesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2A5C7E81270DD6BF003E0231 /* QuotesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesScreen.swift; sourceTree = "<group>"; };
 		2A5C7E84270DD9D2003E0231 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		2A5C7E87270DDB99003E0231 /* QuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesService.swift; sourceTree = "<group>"; };
+		2A5C7E8A270DDDC2003E0231 /* QuotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		2A5C7E7C270DD55C003E0231 /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				2A5C7E89270DDDAD003E0231 /* ViewModel */,
 				2A5C7E86270DDB80003E0231 /* Service */,
 				2A5C7E83270DD9C3003E0231 /* Views */,
 				2A5C7E80270DD69A003E0231 /* Screen */,
@@ -136,6 +139,14 @@
 				2A5C7E87270DDB99003E0231 /* QuotesService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		2A5C7E89270DDDAD003E0231 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C7E8A270DDDC2003E0231 /* QuotesViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				2A5C7E85270DD9D2003E0231 /* QuoteView.swift in Sources */,
 				2A5C7E6C270DD379003E0231 /* ContentView.swift in Sources */,
 				2A5C7E6A270DD379003E0231 /* APIReviewApp.swift in Sources */,
+				2A5C7E8B270DDDC2003E0231 /* QuotesViewModel.swift in Sources */,
 				2A5C7E79270DD39A003E0231 /* APIConstants.swift in Sources */,
 				2A5C7E82270DD6BF003E0231 /* QuotesScreen.swift in Sources */,
 			);
