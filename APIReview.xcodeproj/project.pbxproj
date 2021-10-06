@@ -15,6 +15,7 @@
 		2A5C7E7F270DD58C003E0231 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E7E270DD58C003E0231 /* Quote.swift */; };
 		2A5C7E82270DD6BF003E0231 /* QuotesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E81270DD6BF003E0231 /* QuotesScreen.swift */; };
 		2A5C7E85270DD9D2003E0231 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E84270DD9D2003E0231 /* QuoteView.swift */; };
+		2A5C7E88270DDB9A003E0231 /* QuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E87270DDB99003E0231 /* QuotesService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2A5C7E7E270DD58C003E0231 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		2A5C7E81270DD6BF003E0231 /* QuotesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesScreen.swift; sourceTree = "<group>"; };
 		2A5C7E84270DD9D2003E0231 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		2A5C7E87270DDB99003E0231 /* QuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		2A5C7E7C270DD55C003E0231 /* Quotes */ = {
 			isa = PBXGroup;
 			children = (
+				2A5C7E86270DDB80003E0231 /* Service */,
 				2A5C7E83270DD9C3003E0231 /* Views */,
 				2A5C7E80270DD69A003E0231 /* Screen */,
 				2A5C7E7D270DD572003E0231 /* Model */,
@@ -125,6 +128,14 @@
 				2A5C7E84270DD9D2003E0231 /* QuoteView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2A5C7E86270DDB80003E0231 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C7E87270DDB99003E0231 /* QuotesService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5C7E7F270DD58C003E0231 /* Quote.swift in Sources */,
+				2A5C7E88270DDB9A003E0231 /* QuotesService.swift in Sources */,
 				2A5C7E85270DD9D2003E0231 /* QuoteView.swift in Sources */,
 				2A5C7E6C270DD379003E0231 /* ContentView.swift in Sources */,
 				2A5C7E6A270DD379003E0231 /* APIReviewApp.swift in Sources */,
