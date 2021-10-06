@@ -11,6 +11,7 @@
 		2A5C7E6C270DD379003E0231 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E6B270DD379003E0231 /* ContentView.swift */; };
 		2A5C7E6E270DD37D003E0231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C7E6D270DD37D003E0231 /* Assets.xcassets */; };
 		2A5C7E71270DD37D003E0231 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5C7E70270DD37D003E0231 /* Preview Assets.xcassets */; };
+		2A5C7E79270DD39A003E0231 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5C7E78270DD39A003E0231 /* APIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2A5C7E6B270DD379003E0231 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A5C7E6D270DD37D003E0231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A5C7E70270DD37D003E0231 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A5C7E78270DD39A003E0231 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		2A5C7E68270DD379003E0231 /* APIReview */ = {
 			isa = PBXGroup;
 			children = (
+				2A5C7E77270DD385003E0231 /* Constants */,
 				2A5C7E69270DD379003E0231 /* APIReviewApp.swift */,
 				2A5C7E6B270DD379003E0231 /* ContentView.swift */,
 				2A5C7E6D270DD37D003E0231 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				2A5C7E70270DD37D003E0231 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A5C7E77270DD385003E0231 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C7E78270DD39A003E0231 /* APIConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				2A5C7E6C270DD379003E0231 /* ContentView.swift in Sources */,
 				2A5C7E6A270DD379003E0231 /* APIReviewApp.swift in Sources */,
+				2A5C7E79270DD39A003E0231 /* APIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
